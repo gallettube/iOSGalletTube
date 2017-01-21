@@ -9,7 +9,7 @@
 import XCTest
 @testable import RETAbet
 
-class RETAbetTests: XCTestCase {
+class GalletTubeTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

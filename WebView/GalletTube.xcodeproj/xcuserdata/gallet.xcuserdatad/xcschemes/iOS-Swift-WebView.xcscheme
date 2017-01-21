@@ -55,14 +55,14 @@
             BlueprintIdentifier = "F6412AD31C3C4D3E00995411"
             BuildableName = "RETAbet.app"
             BlueprintName = "RETAbet"
-            ReferencedContainer = "container:RETAbet.xcodeproj">
+            ReferencedContainer = "container:GalletTube.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -78,7 +78,7 @@
             BlueprintIdentifier = "F6412AD31C3C4D3E00995411"
             BuildableName = "RETAbet.app"
             BlueprintName = "RETAbet"
-            ReferencedContainer = "container:RETAbet.xcodeproj">
+            ReferencedContainer = "container:GalletTube.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>

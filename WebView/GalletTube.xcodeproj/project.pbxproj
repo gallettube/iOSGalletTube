@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,8 +14,8 @@
 		F6412AE01C3C4D3E00995411 /* RETAbet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F6412ADE1C3C4D3E00995411 /* RETAbet.xcdatamodeld */; };
 		F6412AE21C3C4D3E00995411 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6412AE11C3C4D3E00995411 /* Assets.xcassets */; };
 		F6412AE51C3C4D3E00995411 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6412AE31C3C4D3E00995411 /* LaunchScreen.storyboard */; };
-		F6412AF01C3C4D3E00995411 /* RETAbetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6412AEF1C3C4D3E00995411 /* RETAbetTests.swift */; };
-		F6412AFB1C3C4D3E00995411 /* RETAbetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6412AFA1C3C4D3E00995411 /* RETAbetUITests.swift */; };
+		F6412AF01C3C4D3E00995411 /* GalletTubeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6412AEF1C3C4D3E00995411 /* GalletTubeTests.swift */; };
+		F6412AFB1C3C4D3E00995411 /* GalletTubeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6412AFA1C3C4D3E00995411 /* GalletTubeUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +45,10 @@
 		F6412AE11C3C4D3E00995411 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6412AE41C3C4D3E00995411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6412AEB1C3C4D3E00995411 /* RETAbetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RETAbetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6412AEF1C3C4D3E00995411 /* RETAbetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RETAbetTests.swift; sourceTree = "<group>"; };
+		F6412AEF1C3C4D3E00995411 /* GalletTubeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalletTubeTests.swift; sourceTree = "<group>"; };
 		F6412AF11C3C4D3E00995411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6412AF61C3C4D3E00995411 /* RETAbetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RETAbetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6412AFA1C3C4D3E00995411 /* RETAbetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RETAbetUITests.swift; sourceTree = "<group>"; };
+		F6412AFA1C3C4D3E00995411 /* GalletTubeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalletTubeUITests.swift; sourceTree = "<group>"; };
 		F6412AFC1C3C4D3E00995411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = RETAbetUITests/Info.plist; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -86,6 +86,7 @@
 				F6412AD51C3C4D3E00995411 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		F6412AD51C3C4D3E00995411 /* Products */ = {
 			isa = PBXGroup;
@@ -114,7 +115,7 @@
 		F6412AEE1C3C4D3E00995411 /* GalletTubeTests */ = {
 			isa = PBXGroup;
 			children = (
-				F6412AEF1C3C4D3E00995411 /* RETAbetTests.swift */,
+				F6412AEF1C3C4D3E00995411 /* GalletTubeTests.swift */,
 				F6412AF11C3C4D3E00995411 /* Info.plist */,
 			);
 			path = GalletTubeTests;
@@ -124,7 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				F6412AFC1C3C4D3E00995411 /* Info.plist */,
-				F6412AFA1C3C4D3E00995411 /* RETAbetUITests.swift */,
+				F6412AFA1C3C4D3E00995411 /* GalletTubeUITests.swift */,
 			);
 			path = GalletTubeUITests;
 			sourceTree = "<group>";
@@ -197,7 +198,6 @@
 				TargetAttributes = {
 					F6412AD31C3C4D3E00995411 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = 6BCJGDUB22;
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
@@ -214,7 +214,7 @@
 				};
 			};
 			buildConfigurationList = F6412ACF1C3C4D3E00995411 /* Build configuration list for PBXProject "GalletTube" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -276,7 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6412AF01C3C4D3E00995411 /* RETAbetTests.swift in Sources */,
+				F6412AF01C3C4D3E00995411 /* GalletTubeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6412AFB1C3C4D3E00995411 /* RETAbetUITests.swift in Sources */,
+				F6412AFB1C3C4D3E00995411 /* GalletTubeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +421,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 6BCJGDUB22;
-				INFOPLIST_FILE = RETAbet/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/GalletTube/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jongalletero;
@@ -438,7 +438,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 6BCJGDUB22;
-				INFOPLIST_FILE = RETAbet/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/GalletTube/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jongalletero;

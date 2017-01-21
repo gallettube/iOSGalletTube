@@ -8,7 +8,7 @@
 
 import XCTest
 
-class RETAbetUITests: XCTestCase {
+class GalletTubeUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()
